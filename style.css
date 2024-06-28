@@ -9,6 +9,7 @@ header{
 }
 
 .mapa{
-    width: 15%;
-    align-items: center;
+    width: 40%;
+    display: flex;
+  justify-content: center;
 }
