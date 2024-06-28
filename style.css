@@ -8,20 +8,10 @@ header{
     font-size: 25px;
 }
 
-.mapa{
-    width: 40%;
-    height: 300px;
-    object-fit: cover;
-}
 
 .texto{
     font-size: 22px;
 }
 
-.campo{
-    width: 40%;
-}
 
-.cidade{
-    width: 40%;
-}
+
