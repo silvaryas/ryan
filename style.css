@@ -1,26 +1,51 @@
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border-bottom: 3px solid black;
 }
 
 .cabeçario{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .mapa{
-    width: 40%;
-    height: 300px;
+    width: 80%;
 }
 
 .texto{
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .campo{
-    width: 40%;
+    width: 80%;
 }
 
 .cidade{
-    width: 40%;
+    width: 80%;
 }
+
+@media screen and (min-width: 1024px){
+    .header {
+        justify-content: space-evenly;
+    }
+
+    .cabeçario{
+        font-size: 25px;
+    }
+
+    .mapa{
+        width: 40%;
+    }
+    
+    .texto{
+        font-size: 22px;
+    }
+    
+    .campo{
+        width: 40%;
+    }
+    
+    .cidade{
+        width: 40%;
+    }
+     }
