@@ -10,8 +10,8 @@ header{
 
 .mapa{
     width: 40%;
-    text-align: center;
-    display: block;
+    height: 300px;
+    object-fit: cover;
 }
 
 .texto{
