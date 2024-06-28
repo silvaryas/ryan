@@ -1,14 +1,11 @@
-
-{  
-    margin: 4; 
-    padding: 5; 
-    
-} 
-
-header{   
-    background-color: hsl(60, 3%, 75%);
-    display: flex; 
+header{
+    text-align: center;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+}
+
+.cabeçario{
+    font-size: 25px;
 }
