@@ -6,3 +6,121 @@ header{
     border-bottom: 3px solid black;
 }
 
+.cabeçario{
+    font-size: 25px;
+}
+
+.lupa{
+width: 5%;
+}
+
+body{
+    margin: 0;
+}
+
+.drone{
+    width: 15%;
+    margin-right: 15px;
+    border: 3px solid;
+}
+
+.texto-drone{
+    display: flex;
+    margin: 0;
+    font-size: 13px;
+    align-items: center;
+}
+
+.esp{
+    margin:  0 10px;
+    min-width: 40%;
+}
+
+.min{
+    font-size: 15px;
+}
+
+.botao{
+    background-color: #76ED97;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
+.gps{
+    width: 15%;
+    margin-right: 15px;
+    border: 3px solid;
+}
+
+.texto-gps{
+    display: flex;
+    margin: 0px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.esp2{
+    margin:  0 10px;
+    min-width: 40%;
+}
+
+.min2{
+    font-size: 15px;
+}
+
+.botao2{
+    background-color: #76ED97;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
+.trator{
+    width: 15%;
+    margin-right: 15px;
+    border: 3px solid;
+}
+
+.texto-trator{
+    display: flex;
+    margin: 0px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.esp3{
+    margin:  0 10px;
+    min-width: 40%;
+}
+
+.min3{
+    font-size: 15px;
+}
+
+.botao3{
+    background-color: #76ED97;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1024px){
+    .texto-drone{
+        margin: 25px;
+        font-size: 25px;
+    }
+    .cabeçario{
+        font-size: 35px;
+    }
+    .texto-gps{
+        margin: 25px;
+        font-size: 25px;
+    }
+    .texto-trator{
+        margin: 25px;
+        font-size: 25px;
+    }
+}
+
